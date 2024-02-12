@@ -1,0 +1,3832 @@
+{
+    "skeleton": {
+        "hash": "kV9562fA7/r6mWmluytAC3ZGtVA",
+        "spine": "3.8.88",
+        "x": -640,
+        "y": -360,
+        "width": 1280,
+        "height": 720,
+        "images": "./images/",
+        "audio": ""
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "all",
+            "parent": "root",
+            "length": 100
+        },
+        {
+            "name": "ht-2",
+            "parent": "all",
+            "x": -411.68,
+            "y": -407.83
+        },
+        {
+            "name": "ht-1",
+            "parent": "all",
+            "x": 522.19,
+            "y": 328.38
+        },
+        {
+            "name": "th-4",
+            "parent": "all",
+            "x": 338.19,
+            "y": 37.98
+        },
+        {
+            "name": "th-3",
+            "parent": "all",
+            "x": 320.67,
+            "y": -237.4
+        },
+        {
+            "name": "th-5",
+            "parent": "all",
+            "x": -342.3,
+            "y": 2.26
+        },
+        {
+            "name": "star",
+            "parent": "all",
+            "length": 89.22,
+            "rotation": 87.4
+        },
+        {
+            "name": "ht-3",
+            "parent": "ht-2",
+            "length": 81.76,
+            "rotation": 2.35,
+            "x": -0.38,
+            "y": -1.36
+        },
+        {
+            "name": "saobang2",
+            "parent": "all",
+            "rotation": 48.39,
+            "x": 621.31,
+            "y": 398.82,
+            "scaleX": 0.4273,
+            "scaleY": 0.4273
+        },
+        {
+            "name": "saobang3",
+            "parent": "all",
+            "rotation": 48.39,
+            "x": -344.84,
+            "y": 453.59,
+            "scaleX": 0.3772,
+            "scaleY": 0.3772
+        },
+        {
+            "name": "saobang4",
+            "parent": "all",
+            "rotation": 48.39,
+            "x": 800.6,
+            "y": 318.9,
+            "scaleX": 0.3918,
+            "scaleY": 0.3918
+        },
+        {
+            "name": "saobang5",
+            "parent": "all",
+            "rotation": 48.39,
+            "x": 218.67,
+            "y": 417.68,
+            "scaleX": 0.6242,
+            "scaleY": 0.6242
+        },
+        {
+            "name": "saobang6",
+            "parent": "all",
+            "rotation": 48.39,
+            "x": 346.01,
+            "y": 519.91,
+            "scaleX": 0.6736,
+            "scaleY": 0.6736
+        },
+        {
+            "name": "saobang7",
+            "parent": "all",
+            "rotation": 48.39,
+            "x": -101.27,
+            "y": 517.2,
+            "scaleX": 0.5854,
+            "scaleY": 0.5854
+        },
+        {
+            "name": "saobang8",
+            "parent": "all",
+            "rotation": 48.39,
+            "x": 158.62,
+            "y": 424.36,
+            "scaleX": 0.4404,
+            "scaleY": 0.4404
+        },
+        {
+            "name": "saobang9",
+            "parent": "all",
+            "rotation": 48.39,
+            "x": 279.23,
+            "y": 540.08,
+            "scaleX": 0.6659,
+            "scaleY": 0.6659
+        },
+        {
+            "name": "saobang10",
+            "parent": "all",
+            "rotation": 48.39,
+            "x": -179.91,
+            "y": 425.55,
+            "scaleX": 0.3731,
+            "scaleY": 0.3731
+        },
+        {
+            "name": "saobang11",
+            "parent": "all",
+            "length": 100,
+            "rotation": 48.39,
+            "x": 668.57,
+            "y": 932.03,
+            "scaleX": 0.6478,
+            "scaleY": 0.6478,
+            "color": "88dd99ff"
+        }
+    ],
+    "slots": [
+        {
+            "name": "all",
+            "bone": "all",
+            "attachment": "all"
+        },
+        {
+            "name": "BG",
+            "bone": "all",
+            "attachment": "fg"
+        },
+        {
+            "name": "saobang8",
+            "bone": "saobang8",
+            "attachment": "saobang"
+        },
+        {
+            "name": "saobang2",
+            "bone": "saobang2",
+            "attachment": "saobang"
+        },
+        {
+            "name": "saobang11",
+            "bone": "saobang11",
+            "color": "ffffff55",
+            "attachment": "saobang"
+        },
+        {
+            "name": "saobang27",
+            "bone": "saobang11",
+            "attachment": "saobang"
+        },
+        {
+            "name": "saobang18",
+            "bone": "saobang11",
+            "attachment": "saobang"
+        },
+        {
+            "name": "saobang22",
+            "bone": "saobang11",
+            "color": "ffffff55",
+            "attachment": "saobang"
+        },
+        {
+            "name": "saobang26",
+            "bone": "saobang11",
+            "color": "ffffff55",
+            "attachment": "saobang"
+        },
+        {
+            "name": "saobang13",
+            "bone": "saobang11",
+            "color": "ffffff55",
+            "attachment": "saobang"
+        },
+        {
+            "name": "saobang28",
+            "bone": "saobang11",
+            "color": "ffffff55",
+            "attachment": "saobang"
+        },
+        {
+            "name": "saobang15",
+            "bone": "saobang11",
+            "color": "ffffff55",
+            "attachment": "saobang"
+        },
+        {
+            "name": "saobang29",
+            "bone": "saobang11",
+            "color": "ffffff55",
+            "attachment": "saobang"
+        },
+        {
+            "name": "saobang19",
+            "bone": "saobang11",
+            "color": "ffffff55",
+            "attachment": "saobang"
+        },
+        {
+            "name": "saobang31",
+            "bone": "saobang11",
+            "attachment": "saobang"
+        },
+        {
+            "name": "saobang23",
+            "bone": "saobang11",
+            "attachment": "saobang"
+        },
+        {
+            "name": "saobang12",
+            "bone": "saobang11",
+            "color": "ffffff55",
+            "attachment": "saobang"
+        },
+        {
+            "name": "saobang17",
+            "bone": "saobang11",
+            "attachment": "saobang"
+        },
+        {
+            "name": "saobang30",
+            "bone": "saobang11",
+            "color": "ffffff55",
+            "attachment": "saobang"
+        },
+        {
+            "name": "saobang21",
+            "bone": "saobang11",
+            "attachment": "saobang"
+        },
+        {
+            "name": "saobang25",
+            "bone": "saobang11",
+            "attachment": "saobang"
+        },
+        {
+            "name": "saobang14",
+            "bone": "saobang11",
+            "color": "ffffff55",
+            "attachment": "saobang"
+        },
+        {
+            "name": "saobang16",
+            "bone": "saobang11",
+            "attachment": "saobang"
+        },
+        {
+            "name": "saobang20",
+            "bone": "saobang11",
+            "color": "ffffff55",
+            "attachment": "saobang"
+        },
+        {
+            "name": "saobang24",
+            "bone": "saobang11",
+            "color": "ffffff55",
+            "attachment": "saobang"
+        },
+        {
+            "name": "saobang4",
+            "bone": "saobang4",
+            "attachment": "saobang"
+        },
+        {
+            "name": "star",
+            "bone": "star",
+            "attachment": "star"
+        },
+        {
+            "name": "star2",
+            "bone": "star",
+            "attachment": "star",
+            "blend": "additive"
+        },
+        {
+            "name": "saobang3",
+            "bone": "saobang3",
+            "attachment": "saobang"
+        },
+        {
+            "name": "saobang7",
+            "bone": "saobang7",
+            "attachment": "saobang"
+        },
+        {
+            "name": "saobang9",
+            "bone": "saobang9",
+            "attachment": "saobang"
+        },
+        {
+            "name": "saobang6",
+            "bone": "saobang6",
+            "color": "ffffff8d",
+            "attachment": "saobang"
+        },
+        {
+            "name": "saobang5",
+            "bone": "saobang5",
+            "attachment": "saobang"
+        },
+        {
+            "name": "saobang10",
+            "bone": "saobang10",
+            "attachment": "saobang"
+        },
+        {
+            "name": "light",
+            "bone": "ht-2",
+            "color": "ffffff4f",
+            "attachment": "light",
+            "blend": "additive"
+        },
+        {
+            "name": "th-5",
+            "bone": "th-5",
+            "attachment": "th-5"
+        },
+        {
+            "name": "th-3",
+            "bone": "th-3",
+            "attachment": "th-3"
+        },
+        {
+            "name": "th-4",
+            "bone": "th-4",
+            "color": "ffffffa4",
+            "attachment": "th-4"
+        },
+        {
+            "name": "ht-1",
+            "bone": "ht-1",
+            "attachment": "ht-1"
+        },
+        {
+            "name": "ht-2",
+            "bone": "ht-3",
+            "attachment": "ht-2"
+        },
+        {
+            "name": "ht-3",
+            "bone": "ht-3",
+            "attachment": "ht-2"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "BG": {
+                    "fg": {
+                        "type": "mesh",
+                        "uvs": [
+                            1,
+                            1,
+                            0,
+                            1,
+                            0,
+                            0,
+                            1,
+                            0
+                        ],
+                        "triangles": [
+                            1,
+                            2,
+                            3,
+                            1,
+                            3,
+                            0
+                        ],
+                        "vertices": [
+                            640,
+                            -360,
+                            -640,
+                            -360,
+                            -640,
+                            360,
+                            640,
+                            360
+                        ],
+                        "hull": 4,
+                        "edges": [
+                            0,
+                            2,
+                            2,
+                            4,
+                            4,
+                            6,
+                            0,
+                            6
+                        ],
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "all": {
+                    "all": {
+                        "type": "clipping",
+                        "end": "all",
+                        "vertexCount": 4,
+                        "vertices": [
+                            -640,
+                            360,
+                            640,
+                            360,
+                            640,
+                            -360,
+                            -640,
+                            -360
+                        ],
+                        "color": "ce3a3a00"
+                    }
+                },
+                "ht-1": {
+                    "ht-1": {
+                        "x": -48.97,
+                        "y": -63.9,
+                        "width": 371,
+                        "height": 336
+                    }
+                },
+                "ht-2": {
+                    "ht-2": {
+                        "rotation": -2.35,
+                        "width": 323,
+                        "height": 322
+                    }
+                },
+                "ht-3": {
+                    "ht-2": {
+                        "rotation": -2.35,
+                        "width": 323,
+                        "height": 322
+                    }
+                },
+                "light": {
+                    "light": {
+                        "x": 56.66,
+                        "y": 117.34,
+                        "scaleX": 1.7699,
+                        "scaleY": 1.7699,
+                        "width": 320,
+                        "height": 316
+                    }
+                },
+                "saobang10": {
+                    "saobang": {
+                        "x": 75.81,
+                        "y": 3.45,
+                        "rotation": -48.39,
+                        "width": 164,
+                        "height": 184
+                    }
+                },
+                "saobang11": {
+                    "saobang": {
+                        "x": -144.98,
+                        "y": 461.22,
+                        "scaleX": 0.5776,
+                        "scaleY": 0.5776,
+                        "rotation": -48.39,
+                        "width": 164,
+                        "height": 184
+                    }
+                },
+                "saobang12": {
+                    "saobang": {
+                        "x": 237.93,
+                        "y": 241.16,
+                        "scaleX": 0.4335,
+                        "scaleY": 0.4335,
+                        "rotation": -48.39,
+                        "width": 164,
+                        "height": 184
+                    }
+                },
+                "saobang13": {
+                    "saobang": {
+                        "x": -239.73,
+                        "y": 185.77,
+                        "scaleX": 0.5776,
+                        "scaleY": 0.5776,
+                        "rotation": -48.39,
+                        "width": 164,
+                        "height": 184
+                    }
+                },
+                "saobang14": {
+                    "saobang": {
+                        "x": 312.89,
+                        "y": 55.31,
+                        "scaleX": 0.5776,
+                        "scaleY": 0.5776,
+                        "rotation": -48.39,
+                        "width": 164,
+                        "height": 184
+                    }
+                },
+                "saobang15": {
+                    "saobang": {
+                        "x": -596.27,
+                        "y": -4.68,
+                        "scaleX": 0.5776,
+                        "scaleY": 0.5776,
+                        "rotation": -48.39,
+                        "width": 164,
+                        "height": 184
+                    }
+                },
+                "saobang16": {
+                    "saobang": {
+                        "x": -71.12,
+                        "y": -128.13,
+                        "scaleX": 0.8374,
+                        "scaleY": 0.8374,
+                        "rotation": -48.39,
+                        "width": 164,
+                        "height": 184
+                    }
+                },
+                "saobang17": {
+                    "saobang": {
+                        "x": -225.83,
+                        "y": 41.27,
+                        "scaleX": 0.3418,
+                        "scaleY": 0.3418,
+                        "rotation": -48.39,
+                        "width": 164,
+                        "height": 184
+                    }
+                },
+                "saobang18": {
+                    "saobang": {
+                        "x": -692.78,
+                        "y": 417.6,
+                        "scaleX": 0.5776,
+                        "scaleY": 0.5776,
+                        "rotation": -48.39,
+                        "width": 164,
+                        "height": 184
+                    }
+                },
+                "saobang19": {
+                    "saobang": {
+                        "x": -891.16,
+                        "y": 179.55,
+                        "scaleX": 1.491,
+                        "scaleY": 1.491,
+                        "rotation": -48.39,
+                        "width": 164,
+                        "height": 184
+                    }
+                },
+                "saobang2": {
+                    "saobang": {
+                        "x": 75.81,
+                        "y": 3.45,
+                        "rotation": -48.39,
+                        "width": 164,
+                        "height": 184
+                    }
+                },
+                "saobang20": {
+                    "saobang": {
+                        "x": -862.19,
+                        "y": -224.01,
+                        "scaleX": 0.5431,
+                        "scaleY": 0.5431,
+                        "rotation": -48.39,
+                        "width": 164,
+                        "height": 184
+                    }
+                },
+                "saobang21": {
+                    "saobang": {
+                        "x": -613.93,
+                        "y": -30.6,
+                        "scaleX": 0.4504,
+                        "scaleY": 0.4504,
+                        "rotation": -48.39,
+                        "width": 164,
+                        "height": 184
+                    }
+                },
+                "saobang22": {
+                    "saobang": {
+                        "x": -888.4,
+                        "y": 345.63,
+                        "scaleX": 0.5776,
+                        "scaleY": 0.5776,
+                        "rotation": -48.39,
+                        "width": 164,
+                        "height": 184
+                    }
+                },
+                "saobang23": {
+                    "saobang": {
+                        "x": -656.9,
+                        "y": 25.11,
+                        "scaleX": 0.4231,
+                        "scaleY": 0.4231,
+                        "rotation": -48.39,
+                        "width": 164,
+                        "height": 184
+                    }
+                },
+                "saobang24": {
+                    "saobang": {
+                        "x": 124.84,
+                        "y": 51.71,
+                        "scaleX": 0.3745,
+                        "scaleY": 0.3745,
+                        "rotation": -48.39,
+                        "width": 164,
+                        "height": 184
+                    }
+                },
+                "saobang25": {
+                    "saobang": {
+                        "x": -446.95,
+                        "y": 132.37,
+                        "scaleX": 0.2841,
+                        "scaleY": 0.2841,
+                        "rotation": -48.39,
+                        "width": 164,
+                        "height": 184
+                    }
+                },
+                "saobang26": {
+                    "saobang": {
+                        "x": -255.3,
+                        "y": 323.93,
+                        "scaleX": 0.3011,
+                        "scaleY": 0.3011,
+                        "rotation": -48.39,
+                        "width": 164,
+                        "height": 184
+                    }
+                },
+                "saobang27": {
+                    "saobang": {
+                        "x": 157.01,
+                        "y": 127.73,
+                        "scaleX": 0.5945,
+                        "scaleY": 0.5945,
+                        "rotation": -48.39,
+                        "width": 164,
+                        "height": 184
+                    }
+                },
+                "saobang28": {
+                    "saobang": {
+                        "x": 139.18,
+                        "y": -126.56,
+                        "scaleX": 0.5776,
+                        "scaleY": 0.5776,
+                        "rotation": -48.39,
+                        "width": 164,
+                        "height": 184
+                    }
+                },
+                "saobang29": {
+                    "saobang": {
+                        "x": -202.76,
+                        "y": -127.79,
+                        "scaleX": 0.2519,
+                        "scaleY": 0.2519,
+                        "rotation": -48.39,
+                        "width": 164,
+                        "height": 184
+                    }
+                },
+                "saobang3": {
+                    "saobang": {
+                        "x": 75.81,
+                        "y": 3.45,
+                        "rotation": -48.39,
+                        "width": 164,
+                        "height": 184
+                    }
+                },
+                "saobang30": {
+                    "saobang": {
+                        "x": 102.96,
+                        "y": -290.94,
+                        "scaleX": 0.5776,
+                        "scaleY": 0.5776,
+                        "rotation": -48.39,
+                        "width": 164,
+                        "height": 184
+                    }
+                },
+                "saobang31": {
+                    "saobang": {
+                        "x": -877.94,
+                        "y": -325.36,
+                        "scaleX": 0.5776,
+                        "scaleY": 0.5776,
+                        "rotation": -48.39,
+                        "width": 164,
+                        "height": 184
+                    }
+                },
+                "saobang4": {
+                    "saobang": {
+                        "x": 75.81,
+                        "y": 3.45,
+                        "rotation": -48.39,
+                        "width": 164,
+                        "height": 184
+                    }
+                },
+                "saobang5": {
+                    "saobang": {
+                        "x": 75.81,
+                        "y": 3.45,
+                        "rotation": -48.39,
+                        "width": 164,
+                        "height": 184
+                    }
+                },
+                "saobang6": {
+                    "saobang": {
+                        "x": 75.81,
+                        "y": 3.45,
+                        "rotation": -48.39,
+                        "width": 164,
+                        "height": 184
+                    }
+                },
+                "saobang7": {
+                    "saobang": {
+                        "x": 75.81,
+                        "y": 3.45,
+                        "rotation": -48.39,
+                        "width": 164,
+                        "height": 184
+                    }
+                },
+                "saobang8": {
+                    "saobang": {
+                        "x": 75.81,
+                        "y": 3.45,
+                        "rotation": -48.39,
+                        "width": 164,
+                        "height": 184
+                    }
+                },
+                "saobang9": {
+                    "saobang": {
+                        "x": 75.81,
+                        "y": 3.45,
+                        "rotation": -48.39,
+                        "width": 164,
+                        "height": 184
+                    }
+                },
+                "star": {
+                    "star": {
+                        "x": 0.32,
+                        "y": 0.48,
+                        "rotation": -87.4,
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "star2": {
+                    "star": {
+                        "x": 0.32,
+                        "y": 0.48,
+                        "rotation": -87.4,
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "th-3": {
+                    "th-3": {
+                        "width": 117,
+                        "height": 117
+                    }
+                },
+                "th-4": {
+                    "th-4": {
+                        "width": 102,
+                        "height": 102
+                    }
+                },
+                "th-5": {
+                    "th-5": {
+                        "width": 78,
+                        "height": 77
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {
+            "slots": {
+                "ht-1": {
+                    "color": [
+                        {
+                            "time": 15.5667,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 15.9,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 16.2,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 16.4,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "ht-2": {
+                    "color": [
+                        {
+                            "time": 3,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 3.1333,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 3.2333,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 3.3333,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 12.9667,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 13.1,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 13.2,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 13.3,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "ht-3": {
+                    "color": [
+                        {
+                            "time": 3,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 3.1333,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 3.2333,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 3.3333,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 12.9667,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 13.1,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 13.2,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 13.3,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "light": {
+                    "color": [
+                        {
+                            "color": "ffffff6e",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.8,
+                            "color": "ffffff6e"
+                        },
+                        {
+                            "time": 3.0333,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 3.2,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 3.3333,
+                            "color": "ffffff6e",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 12.9333,
+                            "color": "ffffff6e"
+                        },
+                        {
+                            "time": 13.1,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 13.2333,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 13.8,
+                            "color": "ffffff6e"
+                        }
+                    ]
+                },
+                "saobang2": {
+                    "color": [
+                        {
+                            "time": 0.4667,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 0.5667,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 18.8,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 18.9667,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "saobang3": {
+                    "color": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.7,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.8667,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.0667,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 2.1667,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 6.8333,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 7,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 8.1667,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 8.2667,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 13.0667,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 13.2333,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 14.4333,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 14.5333,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "saobang4": {
+                    "color": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6333,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 2.8,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4.3,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 4.4,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "saobang5": {
+                    "color": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 3.9333,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 4.1,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 5.2667,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 5.4,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 10.0667,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 10.2333,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 11.4,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 11.5,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 16.3,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 16.4667,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 17.6,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 17.7,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "saobang6": {
+                    "color": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.8,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 2.9667,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4.3667,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 4.4667,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 8.9333,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 9.1,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 10.2667,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 10.3667,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 15.1667,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 15.3333,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 17.1,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 17.2,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "saobang7": {
+                    "color": [
+                        {
+                            "time": 0.8,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 0.9,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 5.5667,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 5.7333,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 6.9,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 7,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 11.8,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 11.9667,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 13.1667,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 13.2667,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 19.4333,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 19.6,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "saobang8": {
+                    "color": [
+                        {
+                            "time": 1.2,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 1.3,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 5.9667,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 6.1333,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 7.3,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 7.4,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 12.2,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 12.3667,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 13.5667,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 13.6667,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 19.8,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 19.9667,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "saobang9": {
+                    "color": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.5,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 2.6667,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4.2667,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 4.3667,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 8.7333,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 8.9,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 10.8,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 10.9,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 16.3667,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 16.5333,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 18.1667,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 18.3,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "saobang10": {
+                    "color": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.0333,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 1.2,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.3667,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 2.5,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 6.1,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 6.2667,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 7.4333,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 7.5333,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 13.4,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 13.5667,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 14.7,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 14.8,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "saobang11": {
+                    "color": [
+                        {
+                            "color": "ffffff55"
+                        },
+                        {
+                            "time": 0.6,
+                            "color": "ffffffa3"
+                        },
+                        {
+                            "time": 0.9667,
+                            "color": "ffffff35"
+                        },
+                        {
+                            "time": 1.2,
+                            "color": "ffffff99"
+                        },
+                        {
+                            "time": 1.5333,
+                            "color": "ffffff43"
+                        },
+                        {
+                            "time": 1.8333,
+                            "color": "ffffffbb"
+                        },
+                        {
+                            "time": 2.1,
+                            "color": "ffffff3c"
+                        },
+                        {
+                            "time": 2.3667,
+                            "color": "ffffff9e"
+                        },
+                        {
+                            "time": 2.7,
+                            "color": "ffffff37"
+                        },
+                        {
+                            "time": 2.9,
+                            "color": "ffffff75"
+                        },
+                        {
+                            "time": 3.1333,
+                            "color": "ffffff4b"
+                        },
+                        {
+                            "time": 3.6667,
+                            "color": "ffffff99"
+                        },
+                        {
+                            "time": 3.9667,
+                            "color": "ffffff24"
+                        },
+                        {
+                            "time": 4.1667,
+                            "color": "ffffff97"
+                        },
+                        {
+                            "time": 4.5,
+                            "color": "ffffff16"
+                        },
+                        {
+                            "time": 5,
+                            "color": "ffffffa3",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 19.9667,
+                            "color": "ffffffa3"
+                        },
+                        {
+                            "time": 20,
+                            "color": "ffffff55"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "name": null
+                        },
+                        {
+                            "time": 0.0667,
+                            "name": "saobang"
+                        },
+                        {
+                            "time": 5,
+                            "name": null
+                        }
+                    ]
+                },
+                "saobang12": {
+                    "color": [
+                        {
+                            "color": "ffffff55"
+                        },
+                        {
+                            "time": 0.6,
+                            "color": "ffffffa3"
+                        },
+                        {
+                            "time": 0.9667,
+                            "color": "ffffff35"
+                        },
+                        {
+                            "time": 1.2,
+                            "color": "ffffff99"
+                        },
+                        {
+                            "time": 1.5333,
+                            "color": "ffffff43"
+                        },
+                        {
+                            "time": 1.8333,
+                            "color": "ffffffbb"
+                        },
+                        {
+                            "time": 2.1,
+                            "color": "ffffff3c"
+                        },
+                        {
+                            "time": 2.3667,
+                            "color": "ffffff9e"
+                        },
+                        {
+                            "time": 2.7,
+                            "color": "ffffff37"
+                        },
+                        {
+                            "time": 2.9,
+                            "color": "ffffff75"
+                        },
+                        {
+                            "time": 3.1333,
+                            "color": "ffffff4b"
+                        },
+                        {
+                            "time": 3.6667,
+                            "color": "ffffff99"
+                        },
+                        {
+                            "time": 3.9667,
+                            "color": "ffffff24"
+                        },
+                        {
+                            "time": 4.1667,
+                            "color": "ffffff97"
+                        },
+                        {
+                            "time": 4.5,
+                            "color": "ffffff16"
+                        },
+                        {
+                            "time": 5,
+                            "color": "ffffffa3",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 19.9667,
+                            "color": "ffffffa3"
+                        },
+                        {
+                            "time": 20,
+                            "color": "ffffff55"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "name": null
+                        },
+                        {
+                            "time": 0.0667,
+                            "name": "saobang"
+                        },
+                        {
+                            "time": 5,
+                            "name": null
+                        }
+                    ]
+                },
+                "saobang13": {
+                    "attachment": [
+                        {
+                            "name": null
+                        },
+                        {
+                            "time": 0.0667,
+                            "name": "saobang"
+                        },
+                        {
+                            "time": 5,
+                            "name": null
+                        }
+                    ]
+                },
+                "saobang14": {
+                    "color": [
+                        {
+                            "color": "ffffff55"
+                        },
+                        {
+                            "time": 0.6,
+                            "color": "ffffffa3"
+                        },
+                        {
+                            "time": 0.9667,
+                            "color": "ffffff35"
+                        },
+                        {
+                            "time": 1.2,
+                            "color": "ffffff99"
+                        },
+                        {
+                            "time": 1.5333,
+                            "color": "ffffff43"
+                        },
+                        {
+                            "time": 1.8333,
+                            "color": "ffffffbb"
+                        },
+                        {
+                            "time": 2.1,
+                            "color": "ffffff3c"
+                        },
+                        {
+                            "time": 2.3667,
+                            "color": "ffffff9e"
+                        },
+                        {
+                            "time": 2.7,
+                            "color": "ffffff37"
+                        },
+                        {
+                            "time": 2.9,
+                            "color": "ffffff75"
+                        },
+                        {
+                            "time": 3.1333,
+                            "color": "ffffff4b"
+                        },
+                        {
+                            "time": 3.6667,
+                            "color": "ffffff99"
+                        },
+                        {
+                            "time": 3.9667,
+                            "color": "ffffff24"
+                        },
+                        {
+                            "time": 4.1667,
+                            "color": "ffffff97"
+                        },
+                        {
+                            "time": 4.5,
+                            "color": "ffffff16"
+                        },
+                        {
+                            "time": 5,
+                            "color": "ffffffa3",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 19.9667,
+                            "color": "ffffffa3"
+                        },
+                        {
+                            "time": 20,
+                            "color": "ffffff55"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "name": null
+                        },
+                        {
+                            "time": 0.0667,
+                            "name": "saobang"
+                        },
+                        {
+                            "time": 5,
+                            "name": null
+                        }
+                    ]
+                },
+                "saobang15": {
+                    "color": [
+                        {
+                            "color": "ffffff55"
+                        },
+                        {
+                            "time": 0.6,
+                            "color": "ffffffa3"
+                        },
+                        {
+                            "time": 0.9667,
+                            "color": "ffffff35"
+                        },
+                        {
+                            "time": 1.2,
+                            "color": "ffffff99"
+                        },
+                        {
+                            "time": 1.5333,
+                            "color": "ffffff43"
+                        },
+                        {
+                            "time": 1.8333,
+                            "color": "ffffffbb"
+                        },
+                        {
+                            "time": 2.1,
+                            "color": "ffffff3c"
+                        },
+                        {
+                            "time": 2.3667,
+                            "color": "ffffff9e"
+                        },
+                        {
+                            "time": 2.7,
+                            "color": "ffffff37"
+                        },
+                        {
+                            "time": 2.9,
+                            "color": "ffffff75"
+                        },
+                        {
+                            "time": 3.1333,
+                            "color": "ffffff4b"
+                        },
+                        {
+                            "time": 3.6667,
+                            "color": "ffffff99"
+                        },
+                        {
+                            "time": 3.9667,
+                            "color": "ffffff24"
+                        },
+                        {
+                            "time": 4.1667,
+                            "color": "ffffff97"
+                        },
+                        {
+                            "time": 4.5,
+                            "color": "ffffff16"
+                        },
+                        {
+                            "time": 5,
+                            "color": "ffffffa3",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 19.9667,
+                            "color": "ffffffa3"
+                        },
+                        {
+                            "time": 20,
+                            "color": "ffffff55"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "name": null
+                        },
+                        {
+                            "time": 0.0667,
+                            "name": "saobang"
+                        },
+                        {
+                            "time": 5,
+                            "name": null
+                        }
+                    ]
+                },
+                "saobang16": {
+                    "attachment": [
+                        {
+                            "name": null
+                        },
+                        {
+                            "time": 0.0667,
+                            "name": "saobang"
+                        },
+                        {
+                            "time": 5,
+                            "name": null
+                        }
+                    ]
+                },
+                "saobang17": {
+                    "color": [
+                        {
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 0.6,
+                            "color": "ffffffa3"
+                        },
+                        {
+                            "time": 0.9667,
+                            "color": "ffffff35"
+                        },
+                        {
+                            "time": 1.2,
+                            "color": "ffffff99"
+                        },
+                        {
+                            "time": 1.5333,
+                            "color": "ffffff43"
+                        },
+                        {
+                            "time": 1.8333,
+                            "color": "ffffffbb"
+                        },
+                        {
+                            "time": 2.1,
+                            "color": "ffffff3c"
+                        },
+                        {
+                            "time": 2.3667,
+                            "color": "ffffff9e"
+                        },
+                        {
+                            "time": 2.7,
+                            "color": "ffffff37"
+                        },
+                        {
+                            "time": 2.9,
+                            "color": "ffffff75"
+                        },
+                        {
+                            "time": 3.1333,
+                            "color": "ffffff4b"
+                        },
+                        {
+                            "time": 3.6667,
+                            "color": "ffffff99"
+                        },
+                        {
+                            "time": 3.9667,
+                            "color": "ffffff24"
+                        },
+                        {
+                            "time": 4.1667,
+                            "color": "ffffff97"
+                        },
+                        {
+                            "time": 4.5,
+                            "color": "ffffff16"
+                        },
+                        {
+                            "time": 5,
+                            "color": "ffffffa3",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 19.9667,
+                            "color": "ffffffa3"
+                        },
+                        {
+                            "time": 20,
+                            "color": "ffffffff"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "name": null
+                        },
+                        {
+                            "time": 0.0667,
+                            "name": "saobang"
+                        },
+                        {
+                            "time": 5,
+                            "name": null
+                        }
+                    ]
+                },
+                "saobang18": {
+                    "attachment": [
+                        {
+                            "name": null
+                        },
+                        {
+                            "time": 0.0667,
+                            "name": "saobang"
+                        },
+                        {
+                            "time": 5,
+                            "name": null
+                        }
+                    ]
+                },
+                "saobang19": {
+                    "color": [
+                        {
+                            "color": "ffffff55"
+                        },
+                        {
+                            "time": 0.6,
+                            "color": "ffffffa3"
+                        },
+                        {
+                            "time": 0.9667,
+                            "color": "ffffff35"
+                        },
+                        {
+                            "time": 1.2,
+                            "color": "ffffff99"
+                        },
+                        {
+                            "time": 1.5333,
+                            "color": "ffffff43"
+                        },
+                        {
+                            "time": 1.8333,
+                            "color": "ffffffbb"
+                        },
+                        {
+                            "time": 2.1,
+                            "color": "ffffff3c"
+                        },
+                        {
+                            "time": 2.3667,
+                            "color": "ffffff9e"
+                        },
+                        {
+                            "time": 2.7,
+                            "color": "ffffff37"
+                        },
+                        {
+                            "time": 2.9,
+                            "color": "ffffff75"
+                        },
+                        {
+                            "time": 3.1333,
+                            "color": "ffffff4b"
+                        },
+                        {
+                            "time": 3.6667,
+                            "color": "ffffff99"
+                        },
+                        {
+                            "time": 3.9667,
+                            "color": "ffffff24"
+                        },
+                        {
+                            "time": 4.1667,
+                            "color": "ffffff97"
+                        },
+                        {
+                            "time": 4.5,
+                            "color": "ffffff16"
+                        },
+                        {
+                            "time": 5,
+                            "color": "ffffffa3",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 19.9667,
+                            "color": "ffffffa3"
+                        },
+                        {
+                            "time": 20,
+                            "color": "ffffff55"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "name": null
+                        },
+                        {
+                            "time": 0.0667,
+                            "name": "saobang"
+                        },
+                        {
+                            "time": 5,
+                            "name": null
+                        }
+                    ]
+                },
+                "saobang20": {
+                    "attachment": [
+                        {
+                            "name": null
+                        },
+                        {
+                            "time": 0.0667,
+                            "name": "saobang"
+                        },
+                        {
+                            "time": 5,
+                            "name": null
+                        }
+                    ]
+                },
+                "saobang21": {
+                    "color": [
+                        {
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 0.6,
+                            "color": "ffffffa3"
+                        },
+                        {
+                            "time": 0.9667,
+                            "color": "ffffff35"
+                        },
+                        {
+                            "time": 1.2,
+                            "color": "ffffff99"
+                        },
+                        {
+                            "time": 1.5333,
+                            "color": "ffffff43"
+                        },
+                        {
+                            "time": 1.8333,
+                            "color": "ffffffbb"
+                        },
+                        {
+                            "time": 2.1,
+                            "color": "ffffff3c"
+                        },
+                        {
+                            "time": 2.3667,
+                            "color": "ffffff9e"
+                        },
+                        {
+                            "time": 2.7,
+                            "color": "ffffff37"
+                        },
+                        {
+                            "time": 2.9,
+                            "color": "ffffff75"
+                        },
+                        {
+                            "time": 3.1333,
+                            "color": "ffffff4b"
+                        },
+                        {
+                            "time": 3.6667,
+                            "color": "ffffff99"
+                        },
+                        {
+                            "time": 3.9667,
+                            "color": "ffffff24"
+                        },
+                        {
+                            "time": 4.1667,
+                            "color": "ffffff97"
+                        },
+                        {
+                            "time": 4.5,
+                            "color": "ffffff16"
+                        },
+                        {
+                            "time": 5,
+                            "color": "ffffffa3",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 19.9667,
+                            "color": "ffffffa3"
+                        },
+                        {
+                            "time": 20,
+                            "color": "ffffffff"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "name": null
+                        },
+                        {
+                            "time": 0.0667,
+                            "name": "saobang"
+                        },
+                        {
+                            "time": 5,
+                            "name": null
+                        }
+                    ]
+                },
+                "saobang22": {
+                    "color": [
+                        {
+                            "color": "ffffff55"
+                        },
+                        {
+                            "time": 0.6,
+                            "color": "ffffffa3"
+                        },
+                        {
+                            "time": 0.9667,
+                            "color": "ffffff35"
+                        },
+                        {
+                            "time": 1.2,
+                            "color": "ffffff99"
+                        },
+                        {
+                            "time": 1.5333,
+                            "color": "ffffff43"
+                        },
+                        {
+                            "time": 1.8333,
+                            "color": "ffffffbb"
+                        },
+                        {
+                            "time": 2.1,
+                            "color": "ffffff3c"
+                        },
+                        {
+                            "time": 2.3667,
+                            "color": "ffffff9e"
+                        },
+                        {
+                            "time": 2.7,
+                            "color": "ffffff37"
+                        },
+                        {
+                            "time": 2.9,
+                            "color": "ffffff75"
+                        },
+                        {
+                            "time": 3.1333,
+                            "color": "ffffff4b"
+                        },
+                        {
+                            "time": 3.6667,
+                            "color": "ffffff99"
+                        },
+                        {
+                            "time": 3.9667,
+                            "color": "ffffff24"
+                        },
+                        {
+                            "time": 4.1667,
+                            "color": "ffffff97"
+                        },
+                        {
+                            "time": 4.5,
+                            "color": "ffffff16"
+                        },
+                        {
+                            "time": 5,
+                            "color": "ffffffa3",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 19.9667,
+                            "color": "ffffffa3"
+                        },
+                        {
+                            "time": 20,
+                            "color": "ffffff55"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "name": null
+                        },
+                        {
+                            "time": 0.0667,
+                            "name": "saobang"
+                        },
+                        {
+                            "time": 5,
+                            "name": null
+                        }
+                    ]
+                },
+                "saobang23": {
+                    "attachment": [
+                        {
+                            "name": null
+                        },
+                        {
+                            "time": 0.0667,
+                            "name": "saobang"
+                        },
+                        {
+                            "time": 5,
+                            "name": null
+                        }
+                    ]
+                },
+                "saobang24": {
+                    "color": [
+                        {
+                            "color": "ffffff55"
+                        },
+                        {
+                            "time": 0.6,
+                            "color": "ffffffa3"
+                        },
+                        {
+                            "time": 0.9667,
+                            "color": "ffffff35"
+                        },
+                        {
+                            "time": 1.2,
+                            "color": "ffffff99"
+                        },
+                        {
+                            "time": 1.5333,
+                            "color": "ffffff43"
+                        },
+                        {
+                            "time": 1.8333,
+                            "color": "ffffffbb"
+                        },
+                        {
+                            "time": 2.1,
+                            "color": "ffffff3c"
+                        },
+                        {
+                            "time": 2.3667,
+                            "color": "ffffff9e"
+                        },
+                        {
+                            "time": 2.7,
+                            "color": "ffffff37"
+                        },
+                        {
+                            "time": 2.9,
+                            "color": "ffffff75"
+                        },
+                        {
+                            "time": 3.1333,
+                            "color": "ffffff4b"
+                        },
+                        {
+                            "time": 3.6667,
+                            "color": "ffffff99"
+                        },
+                        {
+                            "time": 3.9667,
+                            "color": "ffffff24"
+                        },
+                        {
+                            "time": 4.1667,
+                            "color": "ffffff97"
+                        },
+                        {
+                            "time": 4.5,
+                            "color": "ffffff16"
+                        },
+                        {
+                            "time": 5,
+                            "color": "ffffffa3",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 19.9667,
+                            "color": "ffffffa3"
+                        },
+                        {
+                            "time": 20,
+                            "color": "ffffff55"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "name": null
+                        },
+                        {
+                            "time": 0.0667,
+                            "name": "saobang"
+                        },
+                        {
+                            "time": 5,
+                            "name": null
+                        }
+                    ]
+                },
+                "saobang25": {
+                    "color": [
+                        {
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 0.6,
+                            "color": "ffffffa3"
+                        },
+                        {
+                            "time": 0.9667,
+                            "color": "ffffff35"
+                        },
+                        {
+                            "time": 1.2,
+                            "color": "ffffff99"
+                        },
+                        {
+                            "time": 1.5333,
+                            "color": "ffffff43"
+                        },
+                        {
+                            "time": 1.8333,
+                            "color": "ffffffbb"
+                        },
+                        {
+                            "time": 2.1,
+                            "color": "ffffff3c"
+                        },
+                        {
+                            "time": 2.3667,
+                            "color": "ffffff9e"
+                        },
+                        {
+                            "time": 2.7,
+                            "color": "ffffff37"
+                        },
+                        {
+                            "time": 2.9,
+                            "color": "ffffff75"
+                        },
+                        {
+                            "time": 3.1333,
+                            "color": "ffffff4b"
+                        },
+                        {
+                            "time": 3.6667,
+                            "color": "ffffff99"
+                        },
+                        {
+                            "time": 3.9667,
+                            "color": "ffffff24"
+                        },
+                        {
+                            "time": 4.1667,
+                            "color": "ffffff97"
+                        },
+                        {
+                            "time": 4.5,
+                            "color": "ffffff16"
+                        },
+                        {
+                            "time": 5,
+                            "color": "ffffffa3",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 19.9667,
+                            "color": "ffffffa3"
+                        },
+                        {
+                            "time": 20,
+                            "color": "ffffffff"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "name": null
+                        },
+                        {
+                            "time": 0.0667,
+                            "name": "saobang"
+                        },
+                        {
+                            "time": 5,
+                            "name": null
+                        }
+                    ]
+                },
+                "saobang26": {
+                    "attachment": [
+                        {
+                            "name": null
+                        },
+                        {
+                            "time": 0.0667,
+                            "name": "saobang"
+                        },
+                        {
+                            "time": 5,
+                            "name": null
+                        }
+                    ]
+                },
+                "saobang27": {
+                    "color": [
+                        {
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 0.6,
+                            "color": "ffffffa3"
+                        },
+                        {
+                            "time": 0.9667,
+                            "color": "ffffff35"
+                        },
+                        {
+                            "time": 1.2,
+                            "color": "ffffff99"
+                        },
+                        {
+                            "time": 1.5333,
+                            "color": "ffffff43"
+                        },
+                        {
+                            "time": 1.8333,
+                            "color": "ffffffbb"
+                        },
+                        {
+                            "time": 2.1,
+                            "color": "ffffff3c"
+                        },
+                        {
+                            "time": 2.3667,
+                            "color": "ffffff9e"
+                        },
+                        {
+                            "time": 2.7,
+                            "color": "ffffff37"
+                        },
+                        {
+                            "time": 2.9,
+                            "color": "ffffff75"
+                        },
+                        {
+                            "time": 3.1333,
+                            "color": "ffffff4b"
+                        },
+                        {
+                            "time": 3.6667,
+                            "color": "ffffff99"
+                        },
+                        {
+                            "time": 3.9667,
+                            "color": "ffffff24"
+                        },
+                        {
+                            "time": 4.1667,
+                            "color": "ffffff97"
+                        },
+                        {
+                            "time": 4.5,
+                            "color": "ffffff16"
+                        },
+                        {
+                            "time": 5,
+                            "color": "ffffffa3",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 19.9667,
+                            "color": "ffffffa3"
+                        },
+                        {
+                            "time": 20,
+                            "color": "ffffffff"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "name": null
+                        },
+                        {
+                            "time": 0.0667,
+                            "name": "saobang"
+                        },
+                        {
+                            "time": 5,
+                            "name": null
+                        }
+                    ]
+                },
+                "saobang28": {
+                    "color": [
+                        {
+                            "color": "ffffff55"
+                        },
+                        {
+                            "time": 0.6,
+                            "color": "ffffffa3"
+                        },
+                        {
+                            "time": 0.9667,
+                            "color": "ffffff35"
+                        },
+                        {
+                            "time": 1.2,
+                            "color": "ffffff99"
+                        },
+                        {
+                            "time": 1.5333,
+                            "color": "ffffff43"
+                        },
+                        {
+                            "time": 1.8333,
+                            "color": "ffffffbb"
+                        },
+                        {
+                            "time": 2.1,
+                            "color": "ffffff3c"
+                        },
+                        {
+                            "time": 2.3667,
+                            "color": "ffffff9e"
+                        },
+                        {
+                            "time": 2.7,
+                            "color": "ffffff37"
+                        },
+                        {
+                            "time": 2.9,
+                            "color": "ffffff75"
+                        },
+                        {
+                            "time": 3.1333,
+                            "color": "ffffff4b"
+                        },
+                        {
+                            "time": 3.6667,
+                            "color": "ffffff99"
+                        },
+                        {
+                            "time": 3.9667,
+                            "color": "ffffff24"
+                        },
+                        {
+                            "time": 4.1667,
+                            "color": "ffffff97"
+                        },
+                        {
+                            "time": 4.5,
+                            "color": "ffffff16"
+                        },
+                        {
+                            "time": 5,
+                            "color": "ffffffa3",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 19.9667,
+                            "color": "ffffffa3"
+                        },
+                        {
+                            "time": 20,
+                            "color": "ffffff55"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "name": null
+                        },
+                        {
+                            "time": 0.0667,
+                            "name": "saobang"
+                        },
+                        {
+                            "time": 5,
+                            "name": null
+                        }
+                    ]
+                },
+                "saobang29": {
+                    "attachment": [
+                        {
+                            "name": null
+                        },
+                        {
+                            "time": 0.0667,
+                            "name": "saobang"
+                        },
+                        {
+                            "time": 5,
+                            "name": null
+                        }
+                    ]
+                },
+                "saobang30": {
+                    "color": [
+                        {
+                            "color": "ffffff55"
+                        },
+                        {
+                            "time": 0.6,
+                            "color": "ffffffa3"
+                        },
+                        {
+                            "time": 0.9667,
+                            "color": "ffffff35"
+                        },
+                        {
+                            "time": 1.2,
+                            "color": "ffffff99"
+                        },
+                        {
+                            "time": 1.5333,
+                            "color": "ffffff43"
+                        },
+                        {
+                            "time": 1.8333,
+                            "color": "ffffffbb"
+                        },
+                        {
+                            "time": 2.1,
+                            "color": "ffffff3c"
+                        },
+                        {
+                            "time": 2.3667,
+                            "color": "ffffff9e"
+                        },
+                        {
+                            "time": 2.7,
+                            "color": "ffffff37"
+                        },
+                        {
+                            "time": 2.9,
+                            "color": "ffffff75"
+                        },
+                        {
+                            "time": 3.1333,
+                            "color": "ffffff4b"
+                        },
+                        {
+                            "time": 3.6667,
+                            "color": "ffffff99"
+                        },
+                        {
+                            "time": 3.9667,
+                            "color": "ffffff24"
+                        },
+                        {
+                            "time": 4.1667,
+                            "color": "ffffff97"
+                        },
+                        {
+                            "time": 4.5,
+                            "color": "ffffff16"
+                        },
+                        {
+                            "time": 5,
+                            "color": "ffffffa3",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 19.9667,
+                            "color": "ffffffa3"
+                        },
+                        {
+                            "time": 20,
+                            "color": "ffffff55"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "name": null
+                        },
+                        {
+                            "time": 0.0667,
+                            "name": "saobang"
+                        },
+                        {
+                            "time": 5,
+                            "name": null
+                        }
+                    ]
+                },
+                "saobang31": {
+                    "color": [
+                        {
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 0.6,
+                            "color": "ffffffa3"
+                        },
+                        {
+                            "time": 0.9667,
+                            "color": "ffffff35"
+                        },
+                        {
+                            "time": 1.2,
+                            "color": "ffffff99"
+                        },
+                        {
+                            "time": 1.5333,
+                            "color": "ffffff43"
+                        },
+                        {
+                            "time": 1.8333,
+                            "color": "ffffffbb"
+                        },
+                        {
+                            "time": 2.1,
+                            "color": "ffffff3c"
+                        },
+                        {
+                            "time": 2.3667,
+                            "color": "ffffff9e"
+                        },
+                        {
+                            "time": 2.7,
+                            "color": "ffffff37"
+                        },
+                        {
+                            "time": 2.9,
+                            "color": "ffffff75"
+                        },
+                        {
+                            "time": 3.1333,
+                            "color": "ffffff4b"
+                        },
+                        {
+                            "time": 3.6667,
+                            "color": "ffffff99"
+                        },
+                        {
+                            "time": 3.9667,
+                            "color": "ffffff24"
+                        },
+                        {
+                            "time": 4.1667,
+                            "color": "ffffff97"
+                        },
+                        {
+                            "time": 4.5,
+                            "color": "ffffff16"
+                        },
+                        {
+                            "time": 5,
+                            "color": "ffffffa3",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 19.9667,
+                            "color": "ffffffa3"
+                        },
+                        {
+                            "time": 20,
+                            "color": "ffffffff"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "name": null
+                        },
+                        {
+                            "time": 0.0667,
+                            "name": "saobang"
+                        },
+                        {
+                            "time": 5,
+                            "name": null
+                        }
+                    ]
+                },
+                "star2": {
+                    "color": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.2667,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 1.0667,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 1.7667,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.4333,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 3,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 4.1,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 5.1333,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 6.3667,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 7.4333,
+                            "color": "ffffff89"
+                        },
+                        {
+                            "time": 8.3667,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 9.4333,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 10.6,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 11.8333,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 13,
+                            "color": "ffffff97"
+                        },
+                        {
+                            "time": 13.8667,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 15.5,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 15.8,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 17.0333,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 18.1,
+                            "color": "ffffff89"
+                        },
+                        {
+                            "time": 19.0333,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 19.8667,
+                            "color": "ffffff00"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "ht-1": {
+                    "rotate": [
+                        {
+                            "angle": -8.92
+                        },
+                        {
+                            "time": 15.9,
+                            "angle": -46.94
+                        },
+                        {
+                            "time": 16.2
+                        },
+                        {
+                            "time": 19.9667,
+                            "angle": -8.92
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "x": -38.9
+                        },
+                        {
+                            "time": 15.9,
+                            "x": -1321.74
+                        },
+                        {
+                            "time": 16.2,
+                            "x": 262.02
+                        },
+                        {
+                            "time": 19.9667,
+                            "x": -38.9
+                        }
+                    ]
+                },
+                "ht-3": {
+                    "rotate": [
+                        {
+                            "angle": -24.29
+                        },
+                        {
+                            "time": 3.1333,
+                            "angle": -49.16
+                        },
+                        {
+                            "time": 3.2333,
+                            "angle": 29.37
+                        },
+                        {
+                            "time": 10,
+                            "angle": -24.29
+                        },
+                        {
+                            "time": 13.1,
+                            "angle": -49.16
+                        },
+                        {
+                            "time": 13.2,
+                            "angle": 29.37
+                        },
+                        {
+                            "time": 20,
+                            "angle": -24.29
+                        }
+                    ]
+                },
+                "ht-2": {
+                    "translate": [
+                        {
+                            "x": 51.87,
+                            "y": -12.91
+                        },
+                        {
+                            "time": 3.1333,
+                            "x": -514.27
+                        },
+                        {
+                            "time": 3.2333,
+                            "x": 1273.52
+                        },
+                        {
+                            "time": 8.1667,
+                            "x": 379.63,
+                            "y": -20.38
+                        },
+                        {
+                            "time": 10,
+                            "x": 51.87,
+                            "y": -12.91
+                        },
+                        {
+                            "time": 13.1,
+                            "x": -514.27
+                        },
+                        {
+                            "time": 13.2,
+                            "x": 1273.52
+                        },
+                        {
+                            "time": 18.1,
+                            "x": 379.63,
+                            "y": -20.38
+                        },
+                        {
+                            "time": 20,
+                            "x": 51.87,
+                            "y": -12.91
+                        }
+                    ]
+                },
+                "saobang2": {
+                    "translate": [
+                        {
+                            "x": -591.3,
+                            "y": -665.71
+                        },
+                        {
+                            "time": 0.2667,
+                            "x": -726.11,
+                            "y": -817.49
+                        },
+                        {
+                            "time": 0.4667,
+                            "x": -828.38,
+                            "y": -932.63
+                        },
+                        {
+                            "time": 0.5667,
+                            "x": -633.67,
+                            "y": -713.42
+                        },
+                        {
+                            "time": 0.6667,
+                            "x": 15.35,
+                            "y": 17.29,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 18.8,
+                            "x": 15.35,
+                            "y": 17.29
+                        },
+                        {
+                            "time": 19.3,
+                            "x": -237.42,
+                            "y": -267.3
+                        },
+                        {
+                            "time": 19.9667,
+                            "x": -591.3,
+                            "y": -665.71
+                        }
+                    ]
+                },
+                "saobang3": {
+                    "translate": [
+                        {
+                            "x": 15.35,
+                            "y": 17.29,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.7,
+                            "x": 15.35,
+                            "y": 17.29
+                        },
+                        {
+                            "time": 1.2,
+                            "x": -237.42,
+                            "y": -267.3
+                        },
+                        {
+                            "time": 2.1667,
+                            "x": -726.11,
+                            "y": -817.49
+                        },
+                        {
+                            "time": 2.3667,
+                            "x": -828.38,
+                            "y": -932.63
+                        },
+                        {
+                            "time": 2.4667,
+                            "x": -633.67,
+                            "y": -713.42
+                        },
+                        {
+                            "time": 2.5667,
+                            "x": 15.35,
+                            "y": 17.29,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 6.8333,
+                            "x": 15.35,
+                            "y": 17.29
+                        },
+                        {
+                            "time": 7.3333,
+                            "x": -237.42,
+                            "y": -267.3
+                        },
+                        {
+                            "time": 8.3,
+                            "x": -726.11,
+                            "y": -817.49
+                        },
+                        {
+                            "time": 8.5,
+                            "x": -828.38,
+                            "y": -932.63
+                        },
+                        {
+                            "time": 8.6,
+                            "x": -633.67,
+                            "y": -713.42
+                        },
+                        {
+                            "time": 8.7,
+                            "x": 15.35,
+                            "y": 17.29,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 13.0667,
+                            "x": 15.35,
+                            "y": 17.29
+                        },
+                        {
+                            "time": 13.5667,
+                            "x": -237.42,
+                            "y": -267.3
+                        },
+                        {
+                            "time": 14.5333,
+                            "x": -726.11,
+                            "y": -817.49
+                        },
+                        {
+                            "time": 14.7333,
+                            "x": -828.38,
+                            "y": -932.63
+                        },
+                        {
+                            "time": 14.8333,
+                            "x": -633.67,
+                            "y": -713.42
+                        },
+                        {
+                            "time": 14.9333,
+                            "x": 15.35,
+                            "y": 17.29
+                        }
+                    ]
+                },
+                "saobang4": {
+                    "translate": [
+                        {
+                            "x": 15.35,
+                            "y": 17.29,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6333,
+                            "x": 15.35,
+                            "y": 17.29
+                        },
+                        {
+                            "time": 3.1333,
+                            "x": -237.42,
+                            "y": -267.3
+                        },
+                        {
+                            "time": 4.1,
+                            "x": -726.11,
+                            "y": -817.49
+                        },
+                        {
+                            "time": 4.3,
+                            "x": -828.38,
+                            "y": -932.63
+                        },
+                        {
+                            "time": 4.4,
+                            "x": -633.67,
+                            "y": -713.42
+                        },
+                        {
+                            "time": 4.5,
+                            "x": 15.35,
+                            "y": 17.29
+                        }
+                    ]
+                },
+                "saobang5": {
+                    "translate": [
+                        {
+                            "x": 15.35,
+                            "y": 17.29,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 3.9333,
+                            "x": 15.35,
+                            "y": 17.29
+                        },
+                        {
+                            "time": 4.4333,
+                            "x": -237.42,
+                            "y": -267.3
+                        },
+                        {
+                            "time": 5.4,
+                            "x": -726.11,
+                            "y": -817.49
+                        },
+                        {
+                            "time": 5.6,
+                            "x": -828.38,
+                            "y": -932.63
+                        },
+                        {
+                            "time": 5.7,
+                            "x": -633.67,
+                            "y": -713.42
+                        },
+                        {
+                            "time": 5.8,
+                            "x": 15.35,
+                            "y": 17.29,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 10.0667,
+                            "x": 15.35,
+                            "y": 17.29
+                        },
+                        {
+                            "time": 10.5667,
+                            "x": -237.42,
+                            "y": -267.3
+                        },
+                        {
+                            "time": 11.5333,
+                            "x": -726.11,
+                            "y": -817.49
+                        },
+                        {
+                            "time": 11.7333,
+                            "x": -828.38,
+                            "y": -932.63
+                        },
+                        {
+                            "time": 11.8333,
+                            "x": -633.67,
+                            "y": -713.42
+                        },
+                        {
+                            "time": 11.9333,
+                            "x": 15.35,
+                            "y": 17.29,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 16.3,
+                            "x": 15.35,
+                            "y": 17.29
+                        },
+                        {
+                            "time": 16.8,
+                            "x": -237.42,
+                            "y": -267.3
+                        },
+                        {
+                            "time": 17.7667,
+                            "x": -726.11,
+                            "y": -817.49
+                        },
+                        {
+                            "time": 17.9667,
+                            "x": -828.38,
+                            "y": -932.63
+                        },
+                        {
+                            "time": 18.0667,
+                            "x": -633.67,
+                            "y": -713.42
+                        },
+                        {
+                            "time": 18.1667,
+                            "x": 15.35,
+                            "y": 17.29
+                        }
+                    ]
+                },
+                "saobang6": {
+                    "translate": [
+                        {
+                            "x": 15.35,
+                            "y": 17.29,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.8,
+                            "x": 15.35,
+                            "y": 17.29
+                        },
+                        {
+                            "time": 3.3,
+                            "x": -237.42,
+                            "y": -267.3
+                        },
+                        {
+                            "time": 4.4667,
+                            "x": -828.38,
+                            "y": -932.63
+                        },
+                        {
+                            "time": 4.5667,
+                            "x": -633.67,
+                            "y": -713.42
+                        },
+                        {
+                            "time": 4.6667,
+                            "x": 15.35,
+                            "y": 17.29,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 8.9333,
+                            "x": 15.35,
+                            "y": 17.29
+                        },
+                        {
+                            "time": 9.4333,
+                            "x": -237.42,
+                            "y": -267.3
+                        },
+                        {
+                            "time": 10.4,
+                            "x": -726.11,
+                            "y": -817.49
+                        },
+                        {
+                            "time": 10.6,
+                            "x": -828.38,
+                            "y": -932.63
+                        },
+                        {
+                            "time": 10.7,
+                            "x": -633.67,
+                            "y": -713.42
+                        },
+                        {
+                            "time": 10.8,
+                            "x": 15.35,
+                            "y": 17.29,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 15.1667,
+                            "x": 15.35,
+                            "y": 17.29
+                        },
+                        {
+                            "time": 15.6667,
+                            "x": -237.42,
+                            "y": -267.3
+                        },
+                        {
+                            "time": 17.2333,
+                            "x": -828.38,
+                            "y": -932.63
+                        },
+                        {
+                            "time": 17.3333,
+                            "x": -633.67,
+                            "y": -713.42
+                        },
+                        {
+                            "time": 17.4333,
+                            "x": 15.35,
+                            "y": 17.29
+                        }
+                    ]
+                },
+                "saobang7": {
+                    "translate": [
+                        {
+                            "x": -271.12,
+                            "y": -305.24
+                        },
+                        {
+                            "time": 0.9,
+                            "x": -726.11,
+                            "y": -817.49
+                        },
+                        {
+                            "time": 1.1,
+                            "x": -828.38,
+                            "y": -932.63
+                        },
+                        {
+                            "time": 1.2,
+                            "x": -633.67,
+                            "y": -713.42
+                        },
+                        {
+                            "time": 1.3,
+                            "x": 15.35,
+                            "y": 17.29,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 5.5667,
+                            "x": 15.35,
+                            "y": 17.29
+                        },
+                        {
+                            "time": 6.0667,
+                            "x": -237.42,
+                            "y": -267.3
+                        },
+                        {
+                            "time": 7.0333,
+                            "x": -726.11,
+                            "y": -817.49
+                        },
+                        {
+                            "time": 7.2333,
+                            "x": -828.38,
+                            "y": -932.63
+                        },
+                        {
+                            "time": 7.3333,
+                            "x": -633.67,
+                            "y": -713.42
+                        },
+                        {
+                            "time": 7.4333,
+                            "x": 15.35,
+                            "y": 17.29,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 11.8,
+                            "x": 15.35,
+                            "y": 17.29
+                        },
+                        {
+                            "time": 12.3,
+                            "x": -237.42,
+                            "y": -267.3
+                        },
+                        {
+                            "time": 13.2667,
+                            "x": -726.11,
+                            "y": -817.49
+                        },
+                        {
+                            "time": 13.4667,
+                            "x": -828.38,
+                            "y": -932.63
+                        },
+                        {
+                            "time": 13.5667,
+                            "x": -633.67,
+                            "y": -713.42
+                        },
+                        {
+                            "time": 13.6667,
+                            "x": 15.35,
+                            "y": 17.29,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 19.4333,
+                            "x": 15.35,
+                            "y": 17.29
+                        },
+                        {
+                            "time": 19.9,
+                            "x": -237.42,
+                            "y": -267.3
+                        },
+                        {
+                            "time": 19.9667,
+                            "x": -271.12,
+                            "y": -305.24
+                        }
+                    ]
+                },
+                "saobang8": {
+                    "translate": [
+                        {
+                            "x": -68.9,
+                            "y": -77.58
+                        },
+                        {
+                            "time": 0.3333,
+                            "x": -237.42,
+                            "y": -267.3
+                        },
+                        {
+                            "time": 0.4,
+                            "x": -271.12,
+                            "y": -305.24
+                        },
+                        {
+                            "time": 1.3,
+                            "x": -726.11,
+                            "y": -817.49
+                        },
+                        {
+                            "time": 1.5,
+                            "x": -828.38,
+                            "y": -932.63
+                        },
+                        {
+                            "time": 1.6,
+                            "x": -633.67,
+                            "y": -713.42
+                        },
+                        {
+                            "time": 1.7,
+                            "x": 15.35,
+                            "y": 17.29,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 5.9667,
+                            "x": 15.35,
+                            "y": 17.29
+                        },
+                        {
+                            "time": 6.4667,
+                            "x": -237.42,
+                            "y": -267.3
+                        },
+                        {
+                            "time": 7.4333,
+                            "x": -726.11,
+                            "y": -817.49
+                        },
+                        {
+                            "time": 7.6333,
+                            "x": -828.38,
+                            "y": -932.63
+                        },
+                        {
+                            "time": 7.7333,
+                            "x": -633.67,
+                            "y": -713.42
+                        },
+                        {
+                            "time": 7.8333,
+                            "x": 15.35,
+                            "y": 17.29,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 12.2,
+                            "x": 15.35,
+                            "y": 17.29
+                        },
+                        {
+                            "time": 12.7,
+                            "x": -237.42,
+                            "y": -267.3
+                        },
+                        {
+                            "time": 13.6667,
+                            "x": -726.11,
+                            "y": -817.49
+                        },
+                        {
+                            "time": 13.8667,
+                            "x": -828.38,
+                            "y": -932.63
+                        },
+                        {
+                            "time": 13.9667,
+                            "x": -633.67,
+                            "y": -713.42
+                        },
+                        {
+                            "time": 14.0667,
+                            "x": 15.35,
+                            "y": 17.29,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 19.8,
+                            "x": 15.35,
+                            "y": 17.29
+                        },
+                        {
+                            "time": 19.9667,
+                            "x": -68.9,
+                            "y": -77.58
+                        }
+                    ]
+                },
+                "saobang9": {
+                    "translate": [
+                        {
+                            "x": 15.35,
+                            "y": 17.29,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.5,
+                            "x": 15.35,
+                            "y": 17.29
+                        },
+                        {
+                            "time": 3,
+                            "x": -237.42,
+                            "y": -267.3
+                        },
+                        {
+                            "time": 4.3667,
+                            "x": -828.38,
+                            "y": -932.63
+                        },
+                        {
+                            "time": 4.4667,
+                            "x": -633.67,
+                            "y": -713.42
+                        },
+                        {
+                            "time": 4.5667,
+                            "x": 15.35,
+                            "y": 17.29,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 8.7333,
+                            "x": 15.35,
+                            "y": 17.29
+                        },
+                        {
+                            "time": 9.2333,
+                            "x": -237.42,
+                            "y": -267.3
+                        },
+                        {
+                            "time": 10.9,
+                            "x": -828.38,
+                            "y": -932.63
+                        },
+                        {
+                            "time": 11,
+                            "x": -633.67,
+                            "y": -713.42
+                        },
+                        {
+                            "time": 11.1,
+                            "x": 15.35,
+                            "y": 17.29,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 16.3667,
+                            "x": 15.35,
+                            "y": 17.29
+                        },
+                        {
+                            "time": 16.8667,
+                            "x": -237.42,
+                            "y": -267.3
+                        },
+                        {
+                            "time": 16.9333,
+                            "x": -271.12,
+                            "y": -305.24
+                        },
+                        {
+                            "time": 18.3,
+                            "x": -828.38,
+                            "y": -932.63
+                        },
+                        {
+                            "time": 18.4,
+                            "x": -633.67,
+                            "y": -713.42
+                        },
+                        {
+                            "time": 18.5,
+                            "x": 15.35,
+                            "y": 17.29
+                        }
+                    ]
+                },
+                "saobang10": {
+                    "translate": [
+                        {
+                            "x": 15.35,
+                            "y": 17.29,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.0333,
+                            "x": 15.35,
+                            "y": 17.29
+                        },
+                        {
+                            "time": 1.5333,
+                            "x": -237.42,
+                            "y": -267.3
+                        },
+                        {
+                            "time": 2.5,
+                            "x": -726.11,
+                            "y": -817.49
+                        },
+                        {
+                            "time": 2.7,
+                            "x": -828.38,
+                            "y": -932.63
+                        },
+                        {
+                            "time": 2.8,
+                            "x": -633.67,
+                            "y": -713.42
+                        },
+                        {
+                            "time": 2.9,
+                            "x": 15.35,
+                            "y": 17.29,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 6.1,
+                            "x": 15.35,
+                            "y": 17.29
+                        },
+                        {
+                            "time": 6.6,
+                            "x": -237.42,
+                            "y": -267.3
+                        },
+                        {
+                            "time": 7.5667,
+                            "x": -726.11,
+                            "y": -817.49
+                        },
+                        {
+                            "time": 7.7667,
+                            "x": -828.38,
+                            "y": -932.63
+                        },
+                        {
+                            "time": 7.8667,
+                            "x": -633.67,
+                            "y": -713.42
+                        },
+                        {
+                            "time": 7.9667,
+                            "x": 15.35,
+                            "y": 17.29,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 13.4,
+                            "x": 15.35,
+                            "y": 17.29
+                        },
+                        {
+                            "time": 13.9,
+                            "x": -237.42,
+                            "y": -267.3
+                        },
+                        {
+                            "time": 14.8667,
+                            "x": -726.11,
+                            "y": -817.49
+                        },
+                        {
+                            "time": 15.0667,
+                            "x": -828.38,
+                            "y": -932.63
+                        },
+                        {
+                            "time": 15.1667,
+                            "x": -633.67,
+                            "y": -713.42
+                        },
+                        {
+                            "time": 15.2667,
+                            "x": 15.35,
+                            "y": 17.29
+                        }
+                    ]
+                },
+                "saobang11": {
+                    "translate": [
+                        {},
+                        {
+                            "time": 5,
+                            "x": -1427.64,
+                            "y": -1607.31,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 19.9667,
+                            "x": -1427.64,
+                            "y": -1607.31
+                        },
+                        {
+                            "time": 20
+                        }
+                    ]
+                },
+                "th-4": {
+                    "translate": [
+                        {
+                            "x": 70.7
+                        }
+                    ]
+                },
+                "th-3": {
+                    "translate": [
+                        {
+                            "x": 213.83
+                        }
+                    ]
+                },
+                "th-5": {
+                    "translate": [
+                        {
+                            "x": -66.57,
+                            "y": -8.78
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}
