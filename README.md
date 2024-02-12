@@ -13,7 +13,7 @@
 ```
 $ cd your-repo-name
 $ npm install
-$ npm run dev -- --host
+$ npm run start
 ```
 
 ##### build
